@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  key: "W3nwLusqaZDNPbjDuS6qYA2tsCXvmAVN"
+
 };
