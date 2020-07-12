@@ -1,0 +1,21 @@
+nav {
+  background-color: black;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.box {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.button {
+  display: block;
+  width: 100%;
+}
+
+::ng-deep img {
+  width: 100%;
+  border-radius: 3px;
+}

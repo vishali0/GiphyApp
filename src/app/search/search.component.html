@@ -1,0 +1,43 @@
+<!-- <div class="container">
+  <div class="row"> -->
+<div class="search col-10">
+  <h4>Search for Amazing Gifs</h4>
+  <form class="form-group" [formGroup]="userForm">
+    <input formControlName="name" type="text" class="form-control" placeholder="Type and press enter.." #gif
+      (keyup.enter)="search(gif.value)" name="name" ng-required="true">
+    <span *ngIf="(userForm.get('name').untouched)" style="color:red">This field is required</span> </form>
+
+  <span style="font-size:small; font-style: normal;">To create,search and click on create gifs</span>
+
+</div>
+
+<!-- <div class="modal fade col-2 create" id="myModal" role="dialog">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Create New Gifs</h5>
+          </div>
+          <div class="modal-body">
+            <input type="text" id="playlistName" style="background-color: white;border: 1px solid;" value=""
+              placeholder="Enter Playlist Name">
+            <select name="genre" id="genre">
+              <option value="Folk">Folk</option>
+              <option value="Romantic">Romantic</option>
+              <option value="Pop">Pop</option>
+              <option value="Jazz">Jazz</option>
+            </select>
+            <div id="songs">
+
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button id="createPlaylist" class="btn btn-outline-success btn-sm" data-dismiss="modal">Create
+              PlayList</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div> -->

@@ -1,0 +1,25 @@
+.search {
+  max-width: 600px;
+  margin: 30px auto;
+  text-align: center;
+  font-size: 18px;
+}
+
+.search input {
+  width: 100%;
+  padding: 8px 16px;
+  margin-top: 20px;
+}
+
+/* .create {
+  max-width: 100px;
+  margin: 30px auto;
+  text-align: center;
+  font-size: 18px;
+} */
+
+/* .create input {
+    width: 100%;
+    padding: 8px 16px;
+    margin-top: 20px;
+  } */
